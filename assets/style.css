@@ -1,0 +1,172 @@
+
+
+body {
+  background-color: #2e3d52;
+  margin: 0%;
+}
+
+
+.create_container {
+  border-radius: 5px;
+  background-color: #aabdcc;
+  margin: 20px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #010915;
+}
+
+.dcc_compon {
+  margin: 0;
+  padding: 5px;
+  width: calc(100%-40px);
+}
+
+
+
+.my_img {
+  margin: auto;
+  padding: 5px;
+  width: calc(100%-40px);
+  display: flex;
+}
+
+.fix_label {
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100%-40px);
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+.donut_chart_text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: -290px;
+}
+.donut_text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 130px;
+}
+
+.table_style {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table_style Thead, .table_style Th, .table_style Td {
+   border: 1px solid #dddd;
+   /*padding: 7px;*/
+}
+
+.table_style Thead {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: left;
+  background-color: rgb(23,25,36);
+  color: white;
+}
+
+.coin {
+  margin: auto;
+  padding: 5px;
+  width: calc(100%-40px);
+  display: block;
+}
+.hover_only_row:nth-child(even){
+   background-color: rgb(50, 53, 70);
+}
+
+.header_hover:hover {
+   background-color: rgb(50, 53, 70);
+   color: white;
+}
+
+.hover_only_row:hover {
+   background-color: rgb(23,25,36);
+}
+
+#header {
+  align-items: center;
+}
+
+
+#title {
+  text-align: center;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: #aabdcc;
+  color: black;
+}
+
+.Select-control{
+  border: 0.5px solid black;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #272B30 !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aabdcc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white !important;
+}
+
+.rc-slider-track {
+  background-color: red;
+}
+
+.rc-slider-dot-active {
+  border-color: red;
+  border: solid 2px red;
+}
+
+.rc-slider-handle {
+  background-color: red;
+  border-color: red;
+}
+
+.rc.slider-handle:hover {
+  border-color: red;
+}
+
+.rc.slider-handle-active:active {
+  border-color: red;
+}
+
